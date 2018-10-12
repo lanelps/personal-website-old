@@ -7,9 +7,15 @@
   margin: 0px;
 }
 
-body{
+html, body{
+  width: 98%;
+  height: 95%;
+  margin: 0;
+  padding: 1% 1% 0;
   font-family: 'Anonymous Pro', myFirstFont, monospace;
   background: black;
+  color: white;
+  font-size: 12px;
 }
 
 a {
@@ -20,57 +26,39 @@ a {
 .wrapper{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  
-  grid-gap: 1em;
-}
-
-.wrapper{
-  margin: 20px;
-  padding: 1em;
+  grid-gap: 1.5em;
+  padding: 1.5em;
   border: 2px solid white;
 }
 
 .side{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 5% auto 6%;
   grid-gap: 1em;
   background: black;
-  padding: 20px;
-  color: white;
+  padding: 1em;
   border: 2px solid white;
-  font-size: 12px;
 }
 
-.description{
-  width: 200px;
-  /* border: 1px solid white; */
-}
-
-/* .description > div:hover{
-  font-style: italic;
-} */
-
-.links{
-  position: relative;
-  top: 450px;
-  font-size: 12px;
+.side ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .links li:hover{
   font-style: italic;
 }
 
-.side ul{
-  list-style: none;
-  padding-left: 0;
-}
-
-
 .main{
+  display: grid;
+  grid-template-columns:1fr 2fr 1fr;
+  grid-gap: 1em;
+  padding: 1em;
   background: black;
   border: 2px solid white;
 }
+
 #mySpriteSpin{
-  left: 25%;
-  bottom: 40px;
+  bottom: 5%;
 }

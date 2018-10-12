@@ -1,5 +1,6 @@
 @media only screen and (max-width: 812px) {
-  #{
-    margin: 0px;
+
+  html,body{
+    background: yellow;
   }
 }
