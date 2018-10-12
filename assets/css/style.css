@@ -47,7 +47,7 @@ a {
   font-size: 12px;
 }
 
-.links:hover{
+.links li:hover{
   font-style: italic;
 }
 
@@ -61,7 +61,7 @@ a {
   /* border: 1px solid white; */
 }
 
-.desc:hover{
+.description > div:hover{
   font-style: italic;
 }
 
