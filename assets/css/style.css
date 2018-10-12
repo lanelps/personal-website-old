@@ -41,6 +41,15 @@ a {
   font-size: 12px;
 }
 
+.description{
+  width: 200px;
+  /* border: 1px solid white; */
+}
+
+/* .description > div:hover{
+  font-style: italic;
+} */
+
 .links{
   position: relative;
   top: 450px;
@@ -56,14 +65,6 @@ a {
   padding-left: 0;
 }
 
-.description{
-  width: 200px;
-  /* border: 1px solid white; */
-}
-
-.description > div:hover{
-  font-style: italic;
-}
 
 .main{
   background: black;
