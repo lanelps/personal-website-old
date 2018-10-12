@@ -7,6 +7,7 @@
   margin: 0px;
 }
 
+
 html, body{
   width: 98%;
   height: 95%;
@@ -16,6 +17,8 @@ html, body{
   background: black;
   color: white;
   font-size: 12px;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 a {
@@ -62,3 +65,5 @@ a {
 #mySpriteSpin{
   bottom: 5%;
 }
+
+

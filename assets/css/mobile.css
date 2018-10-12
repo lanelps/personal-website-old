@@ -1,6 +1,38 @@
-@media only screen and (max-width: 812px) {
+@media screen and (max-width: 812px) {
+body{
+  font-size: 32px;
+  line-height: 1.2;
+}
 
-  /* html,body{
-    background: yellow;
-  } */
+.wrapper{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 1em;
+}
+
+.side{
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% auto 25%;
+}
+
+/* .side > div{
+  border: 2px solid white;
+} */
+
+.main{
+  grid-template-columns: 1fr;
+  grid-template-rows: .5fr 2fr .5fr;
+  grid-gap: 1em;
+  padding: 1em;
+  background: black;
+  border: 2px solid white;
+}
+
+.main > div{
+  border: 2px solid white;
+}
+#mySpriteSpin{
+  bottom: 0;
+}
+
 }
