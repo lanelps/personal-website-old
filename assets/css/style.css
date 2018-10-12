@@ -20,6 +20,7 @@ a {
 .wrapper{
   display: grid;
   grid-template-columns: 1fr 2fr;
+  
   grid-gap: 1em;
 }
 
@@ -55,7 +56,6 @@ a {
   width: 200px;
   /* border: 1px solid white; */
 }
-
 
 .main{
   background: black;
