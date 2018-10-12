@@ -47,6 +47,10 @@ a {
   font-size: 12px;
 }
 
+.links:hover{
+  font-style: italic;
+}
+
 .side ul{
   list-style: none;
   padding-left: 0;
@@ -55,6 +59,10 @@ a {
 .description{
   width: 200px;
   /* border: 1px solid white; */
+}
+
+.desc:hover{
+  font-style: italic;
 }
 
 .main{
