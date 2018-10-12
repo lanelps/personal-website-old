@@ -8,7 +8,7 @@
 }
 
 body{
-  font-family: 'Anonymous Pro', myFirstFont;
+  font-family: 'Anonymous Pro', myFirstFont, monospace;
   background: black;
 }
 
