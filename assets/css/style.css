@@ -3,27 +3,27 @@
     src: url(../fonts/monaco.ttf);
 }
 
-#{
-  margin: 0px;
-}
-
-
 html, body{
-  width: calc(100% - 2%);
-  height: calc(100% - 2%);
   margin: 0;
   padding: 1% 1% 0;
   font-family: 'Anonymous Pro', myFirstFont, monospace;
   background: black;
   color: white;
   font-size: 12px;
+  width: calc(100% - 2%);
+  height: calc(100% - 2%);
   overflow-x: hidden;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+li{
+  float: left;
+  clear: both;
 }
 
 .wrapper{
@@ -47,12 +47,6 @@ a {
   list-style: none;
   padding-left: 0;
   margin: 0;
-}
-
-
-li{
-  float: left;
-  clear: both;
 }
 
 .links li:hover{
