@@ -37,14 +37,18 @@
   
   html, body{
     font-size: 24px;
+    max-height: 100vh;
   }
 
   .wrapper{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    height: 100vh;
   }
   
   .side{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto;
   }
   
   .main{
