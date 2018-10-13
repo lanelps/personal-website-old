@@ -36,14 +36,12 @@
 @media screen and (max-width: 640px) {
   
   html, body{
-    font-size: 3vh;
+    font-size: 24px;
   }
 
   .wrapper{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 5vw;
-    padding: 5vw;
   }
   
   .side{
