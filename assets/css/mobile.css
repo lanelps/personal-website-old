@@ -48,7 +48,8 @@
   
   .side{
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-rows: .2fr 1fr;
+    grid-gap: 0px;
   }
   
   .main{
