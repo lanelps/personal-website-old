@@ -1,6 +1,6 @@
 @media screen and (max-width: 960px) {
-  
-body{
+
+  html, body{
   font-size: 24px;
   line-height: 1.2;
   overflow-y: scroll;
@@ -32,3 +32,44 @@ body{
 }
 
 }
+
+@media screen and (max-width: 640px) {
+  
+  html, body{
+    font-size: 24px;
+    line-height: 1.2;
+    overflow-y: scroll;
+    device-width: calc(100% - 2%);
+    device-height: calc(100% - 2%);
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .wrapper{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: .5em;
+    padding: .5em;
+    border: 5px solid white;
+  }
+  
+  .side{
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% auto 25%;
+    border: 5px solid white;
+  }
+
+  .side > div{
+    border: 1px solid white;
+  }
+  
+  .main{
+    border: 5px solid white;
+  }
+  
+  #mySpriteSpin{
+    top:1vh;
+    max-width:100%;
+    max-height:100%;
+  }
+  
+  }
