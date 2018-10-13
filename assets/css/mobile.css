@@ -1,7 +1,9 @@
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 body{
   font-size: 32px;
   line-height: 1.2;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .wrapper{
@@ -28,4 +30,4 @@ body{
   max-height:100%;
 }
 
-} */
+}
