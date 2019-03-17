@@ -50,6 +50,7 @@ li {
   grid-template-rows: 5% auto 6%;
   background: black;
   max-width: 100%;
+  line-height: 10pt;
 }
 
 .side ul {
@@ -70,12 +71,8 @@ li {
   background: black;
 }
 
-#mySpriteSpin {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0vh;
-  bottom: 0;
-  margin: auto;
+.maripi {
+  position: relative;
+  left: 25%;
   overflow: hidden;
 }
