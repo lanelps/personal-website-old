@@ -1,6 +1,6 @@
 @font-face {
-  font-family: myFirstFont;
-  src: url(../fonts/monaco.ttf);
+  font-family: Menlo;
+  src: url(../fonts/Menlo.otf);
 }
 
 * {
@@ -12,7 +12,7 @@
 html,
 body {
   padding: 1vw;
-  font-family: 'Anonymous Pro', myFirstFont, monospace;
+  font-family: 'Anonymous Pro', Menlo, monospace;
   background: black;
   color: white;
   font-size: 12px;
@@ -34,18 +34,21 @@ li {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 1.5em;
-  padding: 1.5em;
-  border: 2px solid white;
+  grid-gap: 20px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.wrapper > div {
+  grid-gap: 20px;
+  padding: 20px;
+  border: 1px solid white;
 }
 
 .side {
   display: grid;
   grid-template-rows: 5% auto 6%;
-  grid-gap: 1.5em;
   background: black;
-  padding: 1.5em;
-  border: 2px solid white;
   max-width: 100%;
 }
 
@@ -64,9 +67,7 @@ li {
 
 .main {
   display: inline-block;
-  padding: 1.5em;
   background: black;
-  border: 2px solid white;
 }
 
 #mySpriteSpin {
