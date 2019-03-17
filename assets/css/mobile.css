@@ -1,63 +1,61 @@
 @media screen and (max-width: 360dp) {
+  html,
+  body {
+    font-size: 24px;
+    line-height: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
-  html, body{
-  font-size: 24px;
-  line-height: 1;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 3vw;
+    padding: 3vw;
+    border: 5px solid white;
+  }
 
-.wrapper{
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr;
-  grid-gap: 3vw;
-  padding: 3vw;
-  border: 5px solid white;
-}
+  .side {
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% auto 25%;
+    border: 5px solid white;
+  }
 
-.side{
-  grid-template-columns: 1fr;
-  grid-template-rows: 15% auto 25%;
-  border: 5px solid white;
-}
+  .main {
+    border: 5px solid white;
+  }
 
-.main{
-  border: 5px solid white;
-}
-
-#mySpriteSpin{
-  top:1vh;
-  max-width:100%;
-  max-height:100%;
-}
-
+  #mySpriteSpin {
+    top: 1vh;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  
-  html, body{
+  html,
+  body {
     font-size: 6vw;
     max-height: 100vh;
   }
 
-  .wrapper{
+  .wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
   }
-  
-  .side{
+
+  .side {
     grid-template-columns: 1fr;
-    grid-template-rows: .2fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
     grid-gap: 0px;
   }
-  
-  .main{
+
+  .main {
     display: none;
   }
-  
-  #mySpriteSpin{
+
+  #mySpriteSpin {
     display: none;
   }
-  
-  }
+}
