@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Menlo;
-  src: url(../fonts/Menlo.otf);
+  font-family: IBMPlexSans;
+  src: url(../fonts/IBMPlexSans-Regular.otf);
 }
 
 * {
@@ -12,9 +12,9 @@
 html,
 body {
   padding: 1vw;
-  font-family: Menlo, monospace;
-  background-color: black;
-  color: white;
+  font-family: IBMPlexSans, monospace;
+  background-color: white;
+  color: black;
   font-size: 12px;
   width: 100%;
   overflow-x: hidden;
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #0066ff;
   text-decoration: none;
 }
 
@@ -36,19 +36,22 @@ li {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   padding: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 .wrapper > div {
   grid-gap: 20px;
   padding: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
+}
+
+.wrapper div {
+  /* border: 1px solid black; */
 }
 
 .side {
   display: grid;
   grid-template-rows: 5% auto 6%;
-  background: black;
   max-width: 100%;
   line-height: 10pt;
 }
@@ -68,7 +71,6 @@ li {
 
 .main {
   display: inline-block;
-  background: black;
 }
 
 .maripi {
