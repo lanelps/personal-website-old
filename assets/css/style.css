@@ -1,4 +1,5 @@
 :root {
+  filter: invert(0);
   --main-bg-color: #fff;
   --main-color: #000;
   --blue-color: #0066ff;
@@ -37,6 +38,7 @@ a {
 
 a:hover {
   color: var(--blue-color);
+  border-bottom: 1px solid var(--blue-color);
 }
 
 .content {
@@ -76,6 +78,7 @@ a:hover {
 
 .git span:nth-child(2) {
   color: var(--turq-color);
+  cursor: pointer;
 }
 
 .git span:nth-child(3) {
@@ -105,6 +108,11 @@ footer > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.m-social,
+.m-contact {
+  display: none;
 }
 
 .copywrite {
