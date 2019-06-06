@@ -503,10 +503,10 @@
   grid-column: 13 / 13;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
+@media only screen and (min-width: 0px) and (max-width: 750px) {
   .m--grid--auto {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
