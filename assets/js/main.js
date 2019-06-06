@@ -10,7 +10,7 @@ master.onclick = () => {
     dark = false
   } else {
     console.log('Night Time (onClick)')
-    master.innerHTML = '(dark)'
+    master.innerHTML = '(master-dark)'
     document.documentElement.style.setProperty('--main-bg-color', '#000')
     document.documentElement.style.setProperty('--main-color', '#fff')
     dark = true
