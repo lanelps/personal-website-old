@@ -1,4 +1,4 @@
-@media only screen and (min-width: 0px) and (max-width: 750px) {
+@media only screen and (min-width: 321px) and (max-width: 750px) {
   main {
     display: none;
   }
@@ -10,5 +10,43 @@
   .m-social,
   .m-contact {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  body {
+    height: 568px;
+  }
+
+  .content {
+    overflow-y: scroll;
+    height: 100%;
+  }
+  header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  main {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .m-contact,
+  .m-social {
+    display: block;
+  }
+
+  .m-contact {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .m-social {
+    grid-column: 1 / span 2;
+    grid-row: 3;
   }
 }
