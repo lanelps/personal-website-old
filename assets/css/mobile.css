@@ -1,4 +1,8 @@
-@media only screen and (min-width: 321px) and (max-width: 750px) {
+@media only screen and (min-width: 414px) and (max-width: 750px) {
+  body {
+    min-height: 736px;
+  }
+
   main {
     display: none;
   }
@@ -13,14 +17,14 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 320px) {
+@media only screen and (min-width: 0px) and (max-width: 413px) {
   body {
-    height: 568px;
+    min-height: 713px;
   }
 
   .content {
-    overflow-y: scroll;
-    height: 100%;
+    /* overflow-y: scroll; */
+    /* height: 100%; */
   }
   header {
     grid-column: 1 / span 2;
