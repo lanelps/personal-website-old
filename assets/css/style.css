@@ -50,7 +50,7 @@ a:hover {
 
 .title {
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .title::before {
