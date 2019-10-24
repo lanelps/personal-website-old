@@ -4,6 +4,7 @@
   --blue-color: #0066ff;
   --red-color: #ff5f5f;
   --turq-color: #00a9d0;
+  --bronze-color: #ba670d;
 }
 
 * {
@@ -59,6 +60,25 @@ a:hover {
   color: var(--blue-color);
   font-weight: 400;
   content: '$';
+}
+
+.bronze {
+  position: relative;
+  font-weight: 400;
+}
+
+.bronze a:hover {
+  color: var(--bronze-color);
+  border-bottom: 1px solid var(--bronze-color);
+}
+
+.bronze::before {
+  position: absolute;
+  left: -1rem;
+  color: var(--bronze-color);
+  font-weight: 400;
+  font-size: 1.2rem;
+  content: '•';
 }
 
 .text {
