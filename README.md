@@ -2,4 +2,4 @@
 
 ## Portfolio-Mk2
 
-This is my own personal website to showcase who I am as a designer.
+This is my own personal portfoli website so I can get work.
