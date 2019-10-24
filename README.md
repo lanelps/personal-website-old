@@ -2,4 +2,4 @@
 
 ## Portfolio-Mk2
 
-This is my own personal portfoli website so I can get work.
+This is my own personal portfolio website so I can get work.
