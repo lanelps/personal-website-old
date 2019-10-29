@@ -41,6 +41,10 @@ a:hover {
   border-bottom: 1px solid var(--blue-color);
 }
 
+.hidden {
+  display: none;
+}
+
 .content {
   border: 1px solid var(--main-color);
   position: relative;
